@@ -65,33 +65,15 @@
 
    <script>
 
-    /* 
-    document.getElementById('btn').onclick( function() {
-      if ( document.getElementById(week) != '') 
-        { 
-          alert('Type a Week') 
-        }  
-      } )
-    */
-
-
     $(document).ready (function(){
 
     $("#myform").submit(function(){
-        if ($("#week").val() == "") {
-          alert("Enter Val") 
-        }
-        else {
-          alert("This will never be executed")
+        if ($("#done").val() == "") {
+          alert("Please enter your weekly done list.") 
         }
       })
     })
-
-
     </script>
-
-
-
 
     </body>
 </html>
